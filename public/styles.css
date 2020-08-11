@@ -8,6 +8,10 @@ button, input {
   font-family: Arial;
 }
 
+/* label {
+  display: none;
+} */
+
 table {
   width: 100%;
 }
@@ -28,7 +32,7 @@ tr:nth-child(even) {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 825px;
+  max-width: 825px;/*originally 825px*/
   text-align: center;
 }
 

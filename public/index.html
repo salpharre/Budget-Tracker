@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
 
   <title>Budget Tracker</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div class="total">
@@ -19,10 +21,20 @@
     </div>
 
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <div class="row">
+        <div class="col">
+          <label for="t-name">Name of Transaction:</label>
+          <input type="text" id="t-name" placeholder="Name of transaction" />
+        </div>
+        <div class="col">
+          <label for="t-amount">Transaction Amount:</label>
+          <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
+        </div>
+      </div>
+      <div class="row">
+        <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
+        <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      </div>
       <p class="error"></p>
     </div>
 
@@ -33,11 +45,11 @@
           <th>Amount</th>
         </thead>
         <tbody id="tbody">
-          
+
         </tbody>
       </table>
     </div>
-    
+
     <canvas id="myChart"></canvas>
   </div>
 
@@ -45,4 +57,5 @@
   <script src="./db.js"></script>
   <script src="./index.js"></script>
 </body>
+
 </html>
