@@ -1,6 +1,6 @@
 # Budget-Tracker
 
-![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Budget-Tracker) [![Known Vulnerabilities](https://snyk.io/test/github/salpharre/Budget-Tracker/badge.svg)](https://snyk.io/test/github/{username}/{repo}) ![npm version](https://badge.fury.io/js/inquirer.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Budget-Tracker) ![npm version](https://badge.fury.io/js/inquirer.svg)
 
 Budget tracker utilizes IndexedDB to provide accessibility and functionality even while offline.
 
