@@ -16,7 +16,7 @@ Budget tracker utilizes IndexedDB to provide accessibility and functionality eve
 
 ### Demo
 
-For [webpage](https://budget-tracker3456.herokuapp.com/)
+<!---For [webpage](https://budget-tracker3456.herokuapp.com/)--->
 
 For [demo](https://youtu.be/KattavOx8e4)
 
